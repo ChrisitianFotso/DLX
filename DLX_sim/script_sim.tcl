@@ -32,5 +32,5 @@ vcom -93 -work  ./work $path_to_DatapathCore/*.vhd
 vcom -93 -work  ./work $path_to_DatapathCore/../*.vhd
 vcom -93 -work  ./work $path_to_TB/TB_DLX.vhd
 vsim -t ns -novopt work.tb_dlx(test_dlx)
-add wave sim:/tb_dlx/u1/comp1/comp_dec_u/rf/*
-run 50 ns 
+#add wave sim:/tb_dlx/u1/comp1/comp_dec_u/rf/*
+#run 50 ns 
