@@ -2,7 +2,7 @@
 DLX implementation in VHDL
 click [instruction.pdf](https://github.com/ChrisitianFotso/DLX/blob/master/instruction_set.pdf) to see the instruction set list.
 # HOW TO 
-The whole design has been simulated with modelsim.
+The whole design has been simulated with modelsim se 6.2g .
 Before the simulation we have to load the program instuction's in the instruction memory.Some programs are available in the asm_example folder.You can write you own program and load it in the instruction memory.To do it :
 	-go the in asm_folder
 	-sh assembler.sh [path_to_your_asm_file]
