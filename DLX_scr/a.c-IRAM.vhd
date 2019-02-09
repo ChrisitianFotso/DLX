@@ -61,7 +61,7 @@ begin  -- IRam_Bhe
 	--variable istr: std_logic_vector(ISTR_SIZE-1 downto 0);
 begin  -- process FILL_MEM_P
     if (Rst = '1') then
-		file_open(mem_fp,"JumpAndLink.asm.mem",READ_MODE);
+		file_open(mem_fp,"test.asm.mem",READ_MODE);
 		while (not endfile(mem_fp)) loop
 			readline(mem_fp,file_line);
 			hread(file_line,tmp_data_u);
