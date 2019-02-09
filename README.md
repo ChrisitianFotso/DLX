@@ -8,5 +8,5 @@ Before the simulation we have to load the program instruction's in the instructi
 - sh assembler.sh [path_to_your_asm_file] 
 In order to compile the design :  
 	- move to sim_dlx folder 
-	- launch modelsim 
+	- launch modelsim  
 	- run the the script [script_sim.tlc](https://github.com/ChrisitianFotso/DLX/blob/master/DLX_sim/script_sim.tcl)  
